@@ -2,6 +2,12 @@
 
 **Standup** is a Chrome extension to facilitate and record standup call.
 
+## Chrome extension architecture
+
+![alt text](docs/images/chrome-extensions.png 'Chrome extension architecture')
+
+Content scripts can communicate with their parent extension by exchanging messages and storing values using the storage API.
+
 ## Features
 
 - Display Sprint details like `Scrum Master Name`, `Sprint Duration`, `Label`, `Epic`,...etc
@@ -27,10 +33,16 @@
 
 ## Useful Links
 
+- [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole)
+- [Chrome Web Store](https://chrome.google.com/webstore)
+- [Chrome Extension Development](https://developer.chrome.com/docs/extensions/)
 - [HTML Specification](https://html.spec.whatwg.org/)
 - [CSS Specification](https://www.w3.org/TR/CSS/#css)
+- [CSS Selectors](https://www.w3schools.com/cssref/css_selectors.asp)
 - [MDN](https://developer.mozilla.org/en-US/docs/Web)
-- [Chrome Extension Development](https://developer.chrome.com/docs/extensions/)
 - [MDN Manifest Documentation](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json)
 - [Speech to text](https://developer.chrome.com/blog/voice-driven-web-apps-introduction-to-the-web-speech-api)
 - [Speech to text example](https://github.com/charliegerard/speak-extension)
+- [React Beta Documentation](https://beta.reactjs.org/)
+- [ReactJs](https://reactjs.org/)
+- [Chrome Devtools Documentation](https://chromedevtools.github.io/devtools-protocol/)
